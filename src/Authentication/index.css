@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&family=Raleway&family=Roboto&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: Montserrat;
+}
+.main-container{
+    width:100%;
+    display: flex;
+}
+
+.container1{
+    width:50%;
+    background-color: #0557A2;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1 img{
+    height:600px;
+}
+.container2{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.otp-text{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom:20px;
+    gap:10px;
+
+}
+.container2 .otp-text h1{
+    color: #7D8FB3;
+    font-size: 24px;
+    font-weight: 700;
+}
+.container2 .otp-text p{
+    font-size: 14px;
+    color: #aab9d7;
+    font-weight: 400;
+  
+}
+.otp-container{
+    display:flex;
+    gap:10px;
+}
+.otp-container div input {
+    width: 56px;
+    height: 56px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+border: 1px solid var(--Greyscale-200, #E2E8F0);
+   
+}
+.container2 .timer-container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding-bottom: 20px;
+    
+}
+.container2 p{
+    color: #7D8FB3;
+    font-weight: 700;
+text-align: right;
+font-family: Montserrat;
+font-size: 14px;
+}
+.container2 button{
+    border-radius: 12px;
+background: #0557A2;
+width:50%;
+padding:10px;
+border:none;
+color:#ffffff;
+cursor: pointer;
+font-weight: 700;
+font-size: 15px;
+}
+.otp-container div .error-warning{
+   border:1px solid red;
+   
+}
